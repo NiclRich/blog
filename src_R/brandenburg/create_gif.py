@@ -1,5 +1,5 @@
  # Load libraries
- import os
+import os
 import sys
 from PIL import Image
 import fire

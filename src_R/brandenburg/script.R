@@ -14,7 +14,7 @@ start_recent_period <- ymd(20150101)
 # Load the data ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Read the Stations in Germany
-stations_germany <- read_table("https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/monthly/kl/historical/KL_Monatswerte_Beschreibung_Stationen.txt", 
+stations_germany <- read_table("/home/niclas/Documents/GitHub/blog/src_R/brandenburg/data/KL_Monatswerte_Beschreibung_Stationen.txt", 
                                col_types = cols(Stationshoehe = col_skip(), 
                                                 Stationsname = col_skip()))
 
