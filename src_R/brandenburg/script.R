@@ -126,6 +126,6 @@ for (m in unique(sf_brandenburg_plot$month)) {
     xlab("") + 
     ylab("")
   
-  ggsave(paste0("/home/niclas/Documents/GitHub/blog/R/brandenburg/frames/frame-", strftime(as_date(m), "%Y-%m"), ".png"), p)
+  ggsave(paste0("/home/niclas/Documents/GitHub/blog/src_R/brandenburg/frames/frame-", strftime(as_date(m), "%Y-%m"), ".png"), p)
 
 }
